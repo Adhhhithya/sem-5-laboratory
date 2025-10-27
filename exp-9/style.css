@@ -1,0 +1,41 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 65%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+form button {
+    padding: 10px 14px;
+    font-size: 1.05rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #3e8e41;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}

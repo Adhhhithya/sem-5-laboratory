@@ -1,0 +1,17 @@
+{
+  "name": "online-supermarket-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "inquirer": "^12.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.3"
+  }
+}
